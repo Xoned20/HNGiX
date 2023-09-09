@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" >
+    <title>HNGiX</title>
+</head>
+<body>
+    <header>
+        <h1>HNGiX Task 1</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <label for="name">Username: </label>
+            <span data-testid="slackUserName">@Jephery</span>
+        </div>
+        <div class="card">
+            <label for="display-picture">Display Picture: </label>
+            <img data-testid="slackDisplayImage" src="https://ca.slack-edge.com/T05FFAA91JP-U05RBUAJ9GA-0a319d6e7da0-512" alt="slack display picture">
+        </div>
+        <div class="card">
+            <label for="day-of-week">Day of the Week: </label>
+            <span data-testid="currentDayOfTheWeek" id="dayOfWeek"></span>
+        </div>
+        <div class="card">
+            <label for="utc-time">UTC Time: </label>
+            <span data-testid="currentUTCTime" id="utcTime"></span>
+        </div>
+        <div class="card">
+            <label for="tech-track">HNGiX Track: </label>
+            <span data-testid="myTrack">Frontend</span>
+        </div>
+        <div class="card">
+            <label for="github-url">Github URL: </label>
+            <span data-testid="githubURL" id="githubUrl"><a href="https://github.com/Xoned20">Xoned20</a></span>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
